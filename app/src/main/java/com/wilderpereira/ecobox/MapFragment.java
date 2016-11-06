@@ -158,7 +158,7 @@ public class MapFragment extends Fragment implements GoogleApiClient.ConnectionC
 
             // For dropping a marker at a point on the Map
             mLocation = new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude());
-            googleMap.addMarker(new MarkerOptions().position(mLocation).title("Top Recycler").snippet(""));
+            googleMap.addMarker(new MarkerOptions().position(mLocation).title("Top Recycler").snippet("Wilder Pereira"));
 
             // For zooming automatically to the location of the marker
             CameraPosition cameraPosition = new CameraPosition.Builder().target(mLocation).zoom(12).build();
