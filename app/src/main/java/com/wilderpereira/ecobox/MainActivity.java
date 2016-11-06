@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity
     private void setupViewPager(final ViewPager viewPager){
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new MapFragment(), getString(R.string.map));
-        //adapter.addFragment(new MainListFragment(), getString(R.string.app_name));
+        adapter.addFragment(new FriendsFragment(), "Amigos");
         //adapter.addFragment(new FavoritesFragment(), getString(R.string.app_name));
         viewPager.setAdapter(adapter);
     }

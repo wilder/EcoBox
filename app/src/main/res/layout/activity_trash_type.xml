@@ -25,17 +25,31 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:background="#000"
+                android:src="@drawable/iclata"
                 android:layout_width="80dp"
                 android:layout_height="80dp" />
 
-            <TextView
-                android:layout_marginLeft="@dimen/activity_vertical_margin"
-                android:textSize="24sp"
-                android:gravity="center_vertical"
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Metal"/>
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:textSize="24sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Metal"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dominado por James neste EcoPonto - 200kg"/>
+
+
+            </LinearLayout>
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
@@ -53,7 +67,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:background="#912"
+                android:src="@drawable/notallowed"
                 android:layout_width="80dp"
                 android:layout_height="80dp" />
 
@@ -74,14 +88,21 @@
                     android:textSize="16sp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Garrafa Pet"/>
+                    android:text="- Garrafa Pet"/>
 
                 <TextView
                     android:layout_marginLeft="@dimen/activity_vertical_margin"
                     android:textSize="16sp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Papel"/>
+                    android:text="- Papel"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Expandir..."/>
 
             </LinearLayout>
 
@@ -103,7 +124,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:background="#123"
+                android:src="@drawable/ic_money"
                 android:layout_width="80dp"
                 android:layout_height="80dp" />
 
@@ -113,7 +134,7 @@
                 android:textSize="24sp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="300 pontos"/>
+                android:text="300 EcoCoins"/>
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
