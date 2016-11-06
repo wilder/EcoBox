@@ -2,6 +2,7 @@ package com.wilderpereira.ecobox;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,6 +36,7 @@ public class FriendsFragment extends Fragment {
         adapter = new FriendsAdapter(getFriends());
 
         recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
         return v;
 
@@ -42,11 +44,11 @@ public class FriendsFragment extends Fragment {
 
     List<Friend> getFriends(){
         List<Friend> friends = new ArrayList<>();
-        String names[] = {"Wilder Pereira", "Julio Cesar", "Kesia Fortunato", "Jean Pierre", "Daniel Garcia", "Vinicius Luiz", "André Felipe"};
-        for(int i = 0; i < 7; i++){
+        String names[] = {"Wilder Pereira", "Kesia Fortunato", "Diego Moreno" ,"Julio Cesar"};
+        for(int i = 0; i < 4; i++){
             Friend f = new Friend();
             f.setName(names[i]);
-            f.setLevel("Nivel: "+new Random().nextInt(7) + "\nPontos: "+ new Random().nextInt(7)*2);
+            f.setLevel("Nivel: "+new Random().nextInt(7) + "\nPontos: "+ new Random().nextInt(7)*24);
             friends.add(f);
         }
         return friends;
