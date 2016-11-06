@@ -16,8 +16,8 @@
 
     <string name="password">Senha</string>
 
-    <string name="login">Login</string>
+    <string name="login">Acessar</string>
 
-    <string name="login_not_registered"> Inscreva-se agora</string>
+    <string name="login_not_registered">Ainda não sou cadastrado\nEsqueci minha senha</string>
 
 </resources>

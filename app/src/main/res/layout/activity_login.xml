@@ -4,24 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimary"
     android:gravity="center">
 
 
 
-    <LinearLayout
+    <ImageView
+        android:src="@drawable/logoecobox"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <TextView
-            android:textSize="40sp"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"/>
-    </LinearLayout>
+    </ImageView>
 
 
     <LinearLayout
@@ -36,12 +31,16 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
             android:id="@+id/tip_email">
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:id="@+id/et_email"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
                 android:hint="@string/email"
                 />
         </android.support.design.widget.TextInputLayout>
@@ -49,8 +48,12 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
             android:id="@+id/tip_pass">
             <EditText
+                android:textColor="#fff"
+                android:textColorHint="#fff"
                 android:inputType="textPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,6 +63,7 @@
         </android.support.design.widget.TextInputLayout>
 
         <Button
+            android:textColor="#fff"
             android:onClick="login"
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
@@ -67,24 +71,9 @@
             android:background="@color/colorAccent"
             android:text="@string/login"/>
 
-        <LinearLayout
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="F"
-                android:id="@+id/btn_facebook_login"/>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="G"
-                android:id="@+id/btn_google_login"/>
-        </LinearLayout>
 
         <TextView
+            android:textColor="#fff"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:gravity="center"
             android:layout_gravity="center_horizontal"

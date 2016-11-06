@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity
                 String contents = intent.getStringExtra("SCAN_RESULT");
                 String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
                 Log.i("Barcode Result", contents);
-                // Handle successful scan
+                //start
             } else if (resultCode == RESULT_CANCELED) {
                 // Handle cancel
                 Log.i("Barcode Result","Result canceled");
