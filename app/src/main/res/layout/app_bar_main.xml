@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    app:elevation="0dp"
     tools:context="com.wilderpereira.ecobox.MainActivity">
 
     <android.support.design.widget.AppBarLayout
