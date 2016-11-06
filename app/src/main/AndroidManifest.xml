@@ -41,7 +41,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".WaitingActivity" />
-        <activity android:name=".TrashTypeActivity"></activity>
+        <activity android:name=".TrashTypeActivity" />
+        <activity android:name=".ThanksActivity"></activity>
     </application>
 
 </manifest>

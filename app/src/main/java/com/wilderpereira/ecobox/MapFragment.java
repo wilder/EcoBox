@@ -174,8 +174,8 @@ public class MapFragment extends Fragment implements GoogleApiClient.ConnectionC
             LatLng mLocation2 = new LatLng(-23.524423,-46.670640700000035);
             googleMap.addMarker(new MarkerOptions()
                     .position(mLocation2)
-                    .title("RecyQueen")
-                    .snippet("Joanne D."))
+                    .title("RecyKing")
+                    .snippet("Wilder Pereira"))
                     .setIcon(BitmapDescriptorFactory
                             .fromResource(R.drawable.ic_marker));
 
@@ -191,8 +191,8 @@ public class MapFragment extends Fragment implements GoogleApiClient.ConnectionC
             mLocation2 = new LatLng(-23.4722745,-46.669822599999975);
             googleMap.addMarker(new MarkerOptions()
                     .position(mLocation2)
-                    .title("RecyQueen")
-                    .snippet("Joanne D."))
+                    .title("RecyKing")
+                    .snippet("Wilder Pereira"))
                     .setIcon(BitmapDescriptorFactory
                             .fromResource(R.drawable.ic_marker));
 
@@ -207,8 +207,8 @@ public class MapFragment extends Fragment implements GoogleApiClient.ConnectionC
             mLocation2 = new LatLng(-23.5931297,-46.63511790000001);
             googleMap.addMarker(new MarkerOptions()
                     .position(mLocation2)
-                    .title("RecyQueen")
-                    .snippet("Joanne D."))
+                    .title("RecyKing")
+                    .snippet("Wilder Pereira"))
                     .setIcon(BitmapDescriptorFactory
                             .fromResource(R.drawable.ic_marker));
             mLocation2 = new LatLng(-23.5299194,-46.58302359999999);

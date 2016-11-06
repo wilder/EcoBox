@@ -86,5 +86,28 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:tint="#fff"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:src="@drawable/fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:id="@+id/btn_facebook_login"/>
+        <ImageView
+            android:tint="#fff"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:src="@drawable/gplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:id="@+id/btn_google_login"/>
+    </LinearLayout>
+
 
 </LinearLayout>

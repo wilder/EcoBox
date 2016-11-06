@@ -16,11 +16,11 @@ public class WaitingActivity extends AppCompatActivity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(WaitingActivity.this,MainActivity.class);
+                Intent mainIntent = new Intent(WaitingActivity.this,ThanksActivity.class);
                 startActivity(mainIntent);
                 WaitingActivity.this.finish();
             }
-        }, 2000);
+        }, 3500);
 
     }
 }
