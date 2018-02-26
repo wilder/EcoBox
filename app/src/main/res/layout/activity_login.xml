@@ -8,7 +8,6 @@
     android:gravity="center">
 
 
-
     <ImageView
         android:src="@drawable/logoecobox"
         android:layout_marginTop="@dimen/activity_vertical_margin"
